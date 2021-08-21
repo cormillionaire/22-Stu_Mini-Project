@@ -1,0 +1,20 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    margin: auto;
+}
+
+form {
+    display: block;
+    background-color: chartreuse;
+}
+
+.form-body {
+    width: 400px;
+    height: 400px;
+    border: 10px darkgoldenrod dashed ;
+    background-color: aquamarine;
+
+}
