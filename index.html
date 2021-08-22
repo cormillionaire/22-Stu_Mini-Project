@@ -1,4 +1,6 @@
-<html lang="en-US"><head>
+<html lang="en-US">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -8,33 +10,46 @@
 
 <body>
     <header>
-        <h1>Doing Things</h1>
+        <nav>
+            <ul>
+                <li><a href="#yourInfo" target="blank">Go Here</a></li>
+                <li><a href="#send" target="blank">Go There</a></li>
+                <li><a href="" target="blank">Contact Us</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <section>
+        <h1 class="text-center">We Want Your Info</h1>
         <div class="form-body">
-        <p>Explain what you need to do here
+            <h2>Give us your info</h2>
+            <p>Provide your name and email so we can send you emails until you tell us to stop.
+            </p>
 
-        </p>
-        <form>
-            <label for="name">
-                First Name: <input type="text" id="name" name="user_name">
-            </label>
+            <form>
+                <h3 id="yourInfo">Your Info</h3>
+                <p>
+                    <label for="firstname">First Name: <input type="text" id="firstname"></label>
+                </p>
+                <p>
+                    <label for="lastname">Last Name: <input type="text" id="lastname"></label>
+                </p>
+                <p>
+                    <label for="email">Email: <input type="text" id="email"></label>
+                </p>
+                <p id="send">
+                    <button name="button">Send</button>
+                </p>
+            </form>
 
-            <label for="name">
-                Last Name: <input type="text" id="name" name="user_name">
-            </label>
-            
-            <button name="button">Submit
-            </button>
-        </form>
         </div>
     </section>
 
-    <footer>
-
-
+    <footer class="text-center">
+        &copy Copyright 2021
     </footer>
 
+</body>
 
-</body></html>
+</html>
